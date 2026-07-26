@@ -1,3 +1,9 @@
+## Install 
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ## log location
    
    ```bash
