@@ -8,3 +8,6 @@ pip install pyinstaller
 
 wix eula accept wix7                                    
 wix build ".\Package.wxs" -o ".\dist\system_service.msi"
+
+
+pip install -r requirements.txt
