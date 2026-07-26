@@ -1,0 +1,11 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package
+      Id="MyCompany.SystemService"
+      Name="System Service"
+      Manufacturer="My Company"
+      Version="1.0.0">
+
+    <File Source="dist\system_service.exe" />
+
+  </Package>
+</Wix>

